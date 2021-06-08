@@ -1,0 +1,47 @@
+https://github.com/UOIT-Software-2021/Operating-Systems/tree/master/Lab%202
+
+Lab 2 SOFE 3950 - The program myshell.c is a small shell program.
+
+You can invoke the shell program with a command by typing ".\myshell <command>".
+
+I/O redirection in UNIX allows for the redirection of inputted text and output results.
+Output of the shell program can be redirected by the use of > and >>. The >> redirection
+will append to the output destination if it already exists while > will truncate.
+
+The supported commands are:
+
+cd <directory> 
+
+    Change the current default directory to <directory>. 
+    If the <directory> argument is not present, report the current directory. 
+    If the directory does not exist an appropriate error should be reported. 
+    This command should also change the PWD environment variable.
+
+clr
+
+    Clear the screen.
+
+dir <directory>
+
+    List the contents of directory <directory>.
+
+environ
+
+    List all the environment strings.
+
+echo <comment>
+
+    Display <comment> on the display followed by a new line 
+    multiple spaces/tabs may be reduced to a single space).
+
+help 
+
+    Display the user manual using the more filter.
+
+pause 
+
+    Pause operation of the shell until 'Enter' is pressed.
+
+quit 
+
+    Quit the shell.
